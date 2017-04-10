@@ -1,0 +1,23 @@
+html {
+  height: 100%
+}
+
+
+body {
+  background: -webkit-linear-gradient(top, #1e5799 0%,#207cca 38%,#207cca 38%,#2989d8 59%,#2989d8 59%,#7db9e8 100%);
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 3em;
+  position: absolute;
+  top: 250px;
+  left: 39%;
+}
+
+img {
+  position: relative;
+  text-align: center;
+  left: 30%;
+}
