@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="master.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <title>Thought Box</title>
   </head>
   <body>
-    <h1>Here are all of the thoughts</h1>
-    {{#each result}}
-    <li>{{title}} - {{thought}}</li>
-
-    {{/each}}
+    <h2>Here are all of the thoughts</h2>
+    <div class="thoughtBox">
+      {{#each result}}
+      <li>{{title}} --- {{thought}}</li>
+      {{/each}}
+    </div>
   </body>
 </html>

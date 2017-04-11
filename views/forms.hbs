@@ -3,14 +3,15 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="master.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <title>Thought Forms</title>
   </head>
   <body>
-    <h1>Thought Box</h1>
-    <form  action="/thoughtLocation" method="get">
-      <input type="text" name="title" placeholder="title"><br>
-      <textarea name="thought" rows="8" cols="80" placeholder="thoughts..."></textarea>
-      <button type="submit" name="button">Make Thought</button>
+    <h3>Input a thought below</h3>
+    <form  action="/thoughtLocation" method="get" class="inputs">
+      <input type="text" rows="8" name="title" placeholder="title" class="title"><br>
+      <textarea class="thoughts" name="thought" rows="8" cols="80" placeholder="thoughts..."></textarea><br>
+      <button class="create" type="submit" name="button">Make Thought</button>
     </form>
   </body>
 </html>
